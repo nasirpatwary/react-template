@@ -1,7 +1,8 @@
 import Container from "../shard/Container";
+import DrakMode from "../utils/DrakMode";
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 shadow">
+    <nav className="shadow">
       <Container>
         <div className="flex items-center justify-between py-3 px-0">
           <div className="">
@@ -14,7 +15,7 @@ const Navbar = () => {
               <li className="cursor-pointer">Team</li>
               <li className="cursor-pointer">Schedules</li>
             </ul>
-            <button className="border px-4 py-1 rounded">+ New Comment</button>
+            <DrakMode />
           </div>
         </div>
       </Container>
